@@ -15,7 +15,7 @@ require_once ('DBtaskloader.php');
 $statement = DB::get()->query("SELECT * FROM task LIMIT 100");  // HIER: LIMIT 100
 $all = $statement->fetchAll();
 
-dump($all);
+//dump($all);
 
 //foreach ($all as $row) {
  //  var_dump($row);

@@ -30,7 +30,9 @@ class DB
                 die("Connection failed: " . $e->getMessage());
             }
         }
+
         return DB::$db;
+
     }
 
 
